@@ -1,0 +1,24 @@
+Basic Query
+Poll Data
+RQ Dev Tool
+Create Reuseable query hook
+Parallel Query
+Dynamic query
+Dependent queries
+Query by ID
+Infinte and Paginated Query
+
+
+Update data using mutation
+Invalidte queries 
+Optimistic Query
+Axios Interceptor
+
+
+isLoading
+isfeching
+data
+isError
+error
+
+ cacheTime: 120000,

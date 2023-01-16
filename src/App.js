@@ -1,4 +1,5 @@
 import { QueryClient, QueryClientProvider } from "react-query";
+import { ReactQueryDevtools } from 'react-query/devtools'
 import { Route, Routes } from "react-router-dom";
 import Home from "./Component/Home/Home";
 import SimpleFetch from "./Component/SimpleFetch/SimpleFetch";
@@ -15,6 +16,7 @@ function App() {
       <Route path="react-query" element={<User />} />
       <Route path="simple-fetch" element={<SimpleFetch />} />
     </Routes>
+    <ReactQueryDevtools intialIsOpen={false} position='bottom-right' />
     </QueryClientProvider>
   );
 }
